@@ -117,8 +117,9 @@
   .info__wrap{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     line-height: 133%;
-    margin:6px;
+    margin-top:10px;
   }
   @media screen and (max-width: 1200px) {
     .wrap{
@@ -136,10 +137,10 @@
     align-items:center;
     max-width: 85rem;
     gap: 2rem;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     font-weight: 400;
     color:var(--white-color);
-    font-size:1.6rem;
+    font-size:1.2rem;
   }
   .phone-number{
     display: flex;
@@ -275,10 +276,10 @@
  .logo-container{
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   width:250px;
-  height: 90px;
+  height: 60px;
  }
  .header__logo{
   display: flex;
@@ -286,21 +287,26 @@
   align-items: center;
  }
  .logo-img{
-  width: 50px;
+  width: 60px;
   height: 60px;
  }
  .logo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   white-space: nowrap;
   font-family: "Roboto",sans-serif;
-  font-style: "normal";
   font-weight: 700;
   font-size: 12px;
   color:var(--white-color);
+  margin: 0px ;
+  height: 60px;
  }
  .logo-text span{
   font-weight: 800;
-  font-size: 48px;
+  font-size: 40px;
   color:var( --orange-sun-color) ;
+  text-align: start;
  }
  .header__nav{
   display: flex;
