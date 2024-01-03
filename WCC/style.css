@@ -82,7 +82,7 @@
     --orange-color:#b17a50;
     --orange-sun-color:#d88648;
     --white-color:#f2efec;
-    --blue-color:#0e4657;
+    --grey-color:#dfdedcb9;
     --black-color:#1e1e1e;
   }
   .container{
@@ -361,7 +361,7 @@
   height: 50px;
   border-radius: 100px;
   padding:5px ;
-  background:var( --blue-color);
+  background:var( --grey-color);
  }
  .facebook a{
   width: 50px;
@@ -388,7 +388,7 @@
   height: 50px;
   border-radius: 100px;
   padding:5px ;
-  background:var( --blue-color);
+  background:var( --grey-color);
  }
  .instagram:hover{
   fill:var(--white-color);
@@ -417,7 +417,7 @@
   height: 50px;
   border-radius: 100px;
   border-radius: 100px;
-  background:var( --blue-color);
+  background:var( --grey-color);
  }
  .google a{
   width: 50px;
@@ -433,7 +433,7 @@
   transition: 1s;
  }
  .google:hover svg path{
-  fill:var(--white-color);
+  stroke: var(--white-color);
   transition: 1s;
  }
  
@@ -520,7 +520,7 @@
  
  .our__services{
   margin-top:0rem;
-  background-color: #989b9c;
+  background-color:var(--grey-color);
  }
  .title__service{
   display: flex;
@@ -563,7 +563,8 @@
   max-width: 38rem;
   aspect-ratio: 1 / 1;
   border-radius: 50% ;
-  background-image: linear-gradient(to top, rgba(37, 36, 34, 0.714), rgba(244, 208, 141, 0.777));
+  background-color: var(--orange-sun-color);
+  /* background-image: linear-gradient(to top, rgba(37, 36, 34, 0.714), rgba(244, 208, 141, 0.777)); */
 }
 
 .services_pic{
