@@ -140,7 +140,7 @@
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     color:var(--white-color);
-    font-size:1.6rem;
+    font-size:1.2rem;
   }
   .phone-number{
     display: flex;
