@@ -342,8 +342,8 @@
  .logo-img{
   display: flex;
   position: relative;
- /* width: 192px; */
- height:60px;
+ width: 198px;
+ height: 70px;
   
  }
  .logo-text{
