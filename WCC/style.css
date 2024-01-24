@@ -86,7 +86,7 @@
   }
   :root{
     --orange-color:#b17a50;
-    --orange-sun-color:#d88648;
+    --orange-sun-color:hsl(26, 65%, 56%);
     --white-color:#f2efec;
     --grey-color:#64625985;
     --black-color:#1e1e1e;
@@ -330,7 +330,7 @@
   justify-content: center;
   align-items: start;
   width:250px;
-  height: 60px;
+  height: 75px;
   margin-right: 9rem;
  }
  .header__logo{
@@ -342,8 +342,8 @@
  .logo-img{
   display: flex;
   position: relative;
- width: 198px;
- height: 70px;
+ width: 250px;
+ height: 75px;
   
  }
  .logo-text{
