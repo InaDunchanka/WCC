@@ -70,10 +70,10 @@
   }
  
   h1{
-    font-size: 4.8rem;
+    font-size: 6rem;
   }
   h2{
-    font-size: 3.1rem;
+    font-size: 3rem;
   }
   h3{
     font-size: 2.5rem;
@@ -90,7 +90,7 @@
     --white-color:#f2efec;
     --grey-color:#64625985;
     --black-color:#1e1e1e;
-    --bigger-font-calc: calc(3.4rem + 1vw);
+    --bigger-font-calc: 6rem;
     --large-font-calc:calc(2.5rem + 1vw);
     --medium-font-calc:calc(1.5rem + 1vw);
     --small-font: 1.2rem;
@@ -567,7 +567,6 @@
   word-wrap:unset;
   font-family: "Roboto",sans-serif;
   font-weight: 700;
-  font-size: var(--bigger-font-calc);
   color:var(--white-color);
   max-width:100%;
   text-align:start;
@@ -580,7 +579,6 @@
   font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: calc(1.8rem + 1vw);
   color:var(--white-color);
   max-width: 90vw;
   text-align: start;
